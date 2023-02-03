@@ -1,24 +1,28 @@
 body{
     width: 400px;
+    height: 100px;
     margin: 0 auto;
 }
 
 .one{
     background-color: orange;
-    border: 25px solid red;
-    padding: 10px;
+    border: 3px solid red;
+    padding: 40px;
     margin: 10px;
 }
 
 .two{
     background-color: purple;
-    border: 5px solid green;
+    border: 3px solid green;
     margin-bottom: 10px;
 }
 
 .three{
       background-color: yellow;
-      border: 25px solid palevioletred;
-      padding: 30px;
+      border: 3px solid palevioletred;
+      width: 200px;
+      padding: 0px;
       margin-left: 10px;
+      positon:relative;
+      left: 50%;
 }
